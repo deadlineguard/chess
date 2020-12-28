@@ -1,14 +1,16 @@
 Ссылки для скачивания
 - [python 3.8](https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe)
-  - При установке питона можете либо ставить галочку **Add python to PATH**, либо нет. Если поставили, то вместо `py -m pip` можете писать просто `pip`
+  - **!!!** При установке питона ставьте галочку **Add python to PATH**
 - [git](https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.3/Git-2.29.2.3-64-bit.exe)
 
 После установки
 - Скачивание репозитория `git clone https://github.com/deadlineguard/chess.git`
 - Перейти в папку **chess**
 - Создание виртуального окружения
-  - `py -m pip install virtualenv`
-  - `py -m venv .`
+  - `pip install virtualenv` (установка модуля)
+  - `virtualenv .` (создание виртуального окружения)
+  - `Scripts\activate` (запуск виртуального окружения в консоли)
+  - `pip install -r requirements.txt` (установка в виртуальное окружение библиотек для проекта)
 
 Виртуальное окружение нужно, чтобы у каждого питоновского проекта были **свои версии библиотек**.
 Нужно из-за того, что питоновские библиотеки устанавливаются не конкретно для каждого проекта, а глобально
