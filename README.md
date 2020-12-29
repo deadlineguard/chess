@@ -7,7 +7,6 @@
 - Скачивание репозитория `git clone https://github.com/deadlineguard/chess.git`
 - Перейти в папку **chess**
 - Создание виртуального окружения
-  - `pip install virtualenv` (установка модуля)
   - `virtualenv .` (создание виртуального окружения)
   - `Scripts\activate` (запуск виртуального окружения в консоли)
   - `pip install -r requirements.txt` (установка в виртуальное окружение библиотек для проекта)
