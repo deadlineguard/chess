@@ -2,6 +2,7 @@
 - [python 3.8](https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe)
   - **!!!** При установке питона ставьте галочку **Add python to PATH**
 - [git](https://github.com/git-for-windows/git/releases/download/v2.29.2.windows.3/Git-2.29.2.3-64-bit.exe)
+- [nodejs](https://nodejs.org/dist/v14.15.3/node-v14.15.3-x64.msi)
 
 После установки
 - Скачивание репозитория `git clone https://github.com/deadlineguard/chess.git`
