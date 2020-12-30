@@ -53,10 +53,14 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'chess.urls'
 
+import os
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, "frontend/chess/public")
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
