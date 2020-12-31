@@ -7,7 +7,7 @@
 После установки
 - Скачивание репозитория `git clone https://github.com/deadlineguard/chess.git`
 - Перейти в папку **chess**
-- `virtualenv venv` (создание виртуального окружения)
+- `py -m venv venv` (создание виртуального окружения)
 - `venv\Scripts\activate` (запуск виртуального окружения в консоли)
 - `pip install -r requirements.txt` (установка в виртуальное окружение библиотек для проекта)
 
