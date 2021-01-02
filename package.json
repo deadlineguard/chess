@@ -1,7 +1,7 @@
 {
   "name": "chess",
   "version": "1.0.0",
-  "description": "",
+  "description": "We practice in web",
   "main": "webpack.config.js",
   "scripts": {
     "dev": "webpack --mode development --entry ./chess/frontend/src/index.js --output-path ./chess/frontend/static",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/deadlineguard/chess.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "DeadlineGuard",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/deadlineguard/chess/issues"
@@ -23,8 +23,13 @@
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "normalize.css": "^8.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "sass": "^1.32.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.0"
   }

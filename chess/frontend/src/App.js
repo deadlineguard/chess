@@ -1,13 +1,11 @@
 import React from "react";
 import staticfolder from "./staticfolder";
+import "./App.scss"
 
 class App extends React.Component {
     render() {
         return (
-            <div>
-                <h1>Look on this beatutiful image</h1>
-                <img src={staticfolder + "testimage.png"}/>
-            </div>
+            <img src={staticfolder + "favicon.png"} />
         );
     }
 }
