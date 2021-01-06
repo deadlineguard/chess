@@ -2,9 +2,23 @@
 - [python 3.8](https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe)
 - [nodejs](https://nodejs.org/dist/v14.15.3/node-v14.15.3-x64.msi)
 
-После клонирования репозитория запустить `deps.bat`
+После клонирования репозитория в консоли ввести
 
-Чтобы запустить проект нужно запустить `run.bat` и перейти по ссылке http://127.0.0.1:8000/
+```
+py -m venv venv
+venv\Scripts\activate
+py -m pip install -r requirements.txt
+```
+
+Для запуска проекта в консоли ввести
+
+```
+npm i
+npm run dev
+venv\Scripts\activate
+py app\manage.py runserver
+```
+и перейти по ссылке http://127.0.0.1:8000/
 
 # Работа приложения в общих чертах  
 ![](mindmap.png)
