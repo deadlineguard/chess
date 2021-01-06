@@ -11,7 +11,7 @@ py -m venv .venv
 ```
 Активация виртуального окружения
 ```
-venv\Scripts\activate
+.venv\Scripts\activate
 ```
 Уже находясь в виртуальном окружении устанавливаем зависимости
 ```
@@ -34,7 +34,7 @@ npm run dev
 ```
 Активация виртуального окружения, если деактивировано
 ```
-venv\Scripts\activate
+.venv\Scripts\activate
 ```
 Запуск сервера
 ```
