@@ -17,6 +17,10 @@ venv\Scripts\activate
 ```
 py -m pip install -r requirements.txt
 ```
+Деактивация виртуального окружения, если нужно
+```
+deactivate
+```
 
 # Запуск проекта
 
@@ -28,7 +32,7 @@ npm i
 ```
 npm run dev
 ```
-Активация виртуального окружения
+Активация виртуального окружения, если деактивировано
 ```
 venv\Scripts\activate
 ```
