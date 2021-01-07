@@ -4,9 +4,9 @@ import {Link} from "react-router-dom";
 const MainMenu = () => (
     <div>
         <h1>Главное меню</h1>
-        <button>
-            <Link to="/game">Начать игру</Link>
-        </button>
+        <Link to="/game">
+            <button>Начать игру</button>
+        </Link>
     </div>
 );
 
