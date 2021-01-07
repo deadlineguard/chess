@@ -1,9 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import {Route, BrowserRouter, Switch} from "react-router-dom";
+
+import MainMenu from "./MainMenu";
+import Game from "./Game";
+import NotFound from "./NotFound";
+
 import 'normalize.css';
 
 ReactDOM.render(
-  <App />,
-  document.getElementById('root')
+    <div>
+        <BrowserRouter>
+            <Switch>
+                <Route exact path="/" component={MainMenu}/>
+                <Route path="/game" component={Game}/>
+                <Route component={NotFound}/>
+            </Switch>
+        </BrowserRouter>
+    </div>,
+    document.getElementById('root')
 );
