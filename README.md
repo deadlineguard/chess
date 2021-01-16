@@ -38,7 +38,7 @@ python -m venv .venv
 ```
 Уже находясь в виртуальном окружении устанавливаем зависимости для бекенда
 ```
-python -m pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 Установить зависимости для фронтенда
 ```
