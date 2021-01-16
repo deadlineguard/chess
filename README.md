@@ -9,11 +9,26 @@
 - [git](https://github.com/git-for-windows/git/releases/download/v2.30.0.windows.2/Git-2.30.0.2-64-bit.exe)
 - [nodejs](https://nodejs.org/dist/v14.15.3/node-v14.15.3-x64.msi)
 
+# Открыть консоль
+- Тыкнуть в клонированной папке здесь
+
+
+![](1.png)
+
+
+- Стереть весь текст и написать `cmd`
+
+
+![](2.png)
+
+
+- Нажать Enter
+
 # После клонирования репозитория
 
 Создание виртуального окружения
 ```
-py -m venv .venv
+python -m venv .venv
 ```
 Активация виртуального окружения
 ```
@@ -21,7 +36,7 @@ py -m venv .venv
 ```
 Уже находясь в виртуальном окружении устанавливаем зависимости
 ```
-py -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 Деактивация виртуального окружения, если нужно
 ```
@@ -44,7 +59,7 @@ npm run dev
 ```
 Запуск сервера
 ```
-py app\manage.py runserver
+python app\manage.py runserver
 ```
 Теперь перейти по ссылке http://127.0.0.1:8000/
 
