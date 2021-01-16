@@ -4,6 +4,7 @@
   "description": "We practice in web",
   "main": "webpack.config.js",
   "scripts": {
+    "hr": "webpack serve --mode development --entry ./app/frontend/src/index.js --output-path ./app/frontend/static",
     "dev": "webpack --mode development --entry ./app/frontend/src/index.js --output-path ./app/frontend/static",
     "build": "webpack --mode production --entry ./app/frontend/src/index.js --output-path ./app/frontend/static"
   },
@@ -31,7 +32,8 @@
     "sass": "^1.32.0",
     "sass-loader": "^10.1.0",
     "style-loader": "^2.0.0",
-    "webpack": "^5.11.1",
-    "webpack-cli": "^4.3.0"
+    "webpack": "^5.15.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2"
   }
 }
