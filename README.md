@@ -1,6 +1,7 @@
 # Ссылки для скачивания
 
-- [python](https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe)
+- [python](https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe) Устанавливать с галочкой Add Python to PATH
+![](pyinstall.png)
 - [git](https://github.com/git-for-windows/git/releases/download/v2.30.0.windows.2/Git-2.30.0.2-64-bit.exe)
 - [nodejs](https://nodejs.org/dist/v14.15.3/node-v14.15.3-x64.msi)
 
