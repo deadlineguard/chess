@@ -1,1 +1,1 @@
-web: gunicorn chess.wsgi --log-file -
+web: gunicorn app.chess.wsgi
