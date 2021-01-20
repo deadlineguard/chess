@@ -72,7 +72,7 @@ start cmd /k npm run hr
 ```
 Запуск сервера
 ```
-python app\manage.py runserver
+python manage.py runserver
 ```
 Теперь перейти по ссылке http://127.0.0.1:8000/
 

@@ -4,9 +4,9 @@
   "description": "We practice in web",
   "main": "webpack.config.js",
   "scripts": {
-    "hr": "webpack serve --mode development --entry ./app/frontend/src/index.js --output-path ./app/frontend/static",
-    "dev": "webpack --mode development --entry ./app/frontend/src/index.js --output-path ./app/frontend/static",
-    "build": "webpack --mode production --entry ./app/frontend/src/index.js --output-path ./app/frontend/static"
+    "hr": "webpack serve --mode development --entry ./frontend/src/index.js --output-path ./frontend/static",
+    "dev": "webpack --mode development --entry ./frontend/src/index.js --output-path ./frontend/static",
+    "build": "webpack --mode production --entry ./frontend/src/index.js --output-path ./frontend/static"
   },
   "repository": {
     "type": "git",

@@ -1,1 +1,1 @@
-web: gunicorn app.chess.wsgi
+web: gunicorn chess.wsgi
